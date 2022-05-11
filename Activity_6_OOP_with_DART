@@ -374,7 +374,7 @@ void main(){
   //loop does not end unless user inputs any keys other than 1, 2, 3, and 4
   for(bool doExit=false;!doExit;){
     print("***** WELCOME TO THE LIBRARY *****");
-    stdout.write("(1)Browse collection of books\n (2)Borrow book/s\n (3)Return book/s\n (4)View book/s in cart\n Press any other key to exit...\n Enter Choice: ");
+    stdout.write(" (1)Browse collection of books\n (2)Borrow book/s\n (3)Return book/s\n (4)View book/s in cart\n Press any other key to exit...\n Enter Choice: ");
     var mainOption=stdin.readLineSync();
     switch(mainOption){
       case '1':
